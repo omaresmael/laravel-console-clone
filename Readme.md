@@ -21,4 +21,11 @@ Laravel Console Clone is a clone for the basic function of laravel console itsel
 
 
 
+Source: [Nuno Maduro talk in laracon 2021](https://www.youtube.com/watch?v=ps9oNo3XA4U)
+
+
+
+
+
+
 
