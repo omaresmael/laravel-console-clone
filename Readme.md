@@ -1,8 +1,8 @@
-#LARAVEL CONSOLE CLONE
+# LARAVEL CONSOLE CLONE
 
 Laravel Console Clone is a clone for the basic function of laravel console itself
 
-## Installation
+## Requirements
 
 * php >= 7.4 
 * composer
