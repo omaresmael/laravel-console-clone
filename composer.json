@@ -1,0 +1,14 @@
+{
+  "name": "illuminate/console",
+  "require": {
+    "symfony/console": "^5.2",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-readline": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Illuminate\\Console\\": "src/"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+<?php
+
+use Illuminate\Console\Commands;
+
+require __DIR__ .'/vendor/autoload.php';
+
+$application = new Symfony\Component\Console\Application();
+
+$application->setName("Laravel Framework Clone");
+$application->setVersion('1.0.0');
+
+$commands = array_map(function($filename){
+   $class = basename($filename,'.php');
+   $class = "Illuminate\Console\Commands\\$class";
+   return new $class;
+
+},glob(__DIR__.'/src/Commands/*'));
+$application->addCommands($commands);
+
+$application->run();
